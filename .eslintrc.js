@@ -11,11 +11,12 @@ module.exports = {
 	},
 	plugins: ['@typescript-eslint'],
 	rules: {
+		'func-names': 'off',
 		'import/extensions': 'off',
 		'import/prefer-default-export': 'off',
-		'no-console': 'off',
 		'no-plusplus': 'off',
 		'no-restricted-syntax': 'off',
+		'prefer-arrow-callback': 'off',
 	},
 	settings: {
 		'import/resolver': {

@@ -1,12 +1,4 @@
-import { fetchInput } from '../lib/fetch-input';
-
-export async function day1part1() {
-	const input = await fetchInput(1);
-	const depths: number[] = input!
-		.trim()
-		.split('\n')
-		.map((depth) => Number.parseInt(depth.trim(), 10));
-
+export function day1part1(depths: number[]) {
 	let increaseCount = 0;
 
 	depths.forEach((depth, depthIndex, inputCollection) => {
@@ -18,6 +10,5 @@ export async function day1part1() {
 		}
 	});
 
-	console.log('Depth increases: ', increaseCount);
-	return depths;
+	return increaseCount;
 }
