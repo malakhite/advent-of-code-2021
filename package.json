@@ -27,7 +27,8 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"start": "ts-node src/index.ts",
-		"test": "mocha"
+		"test": "mocha",
+		"test:watch": "mocha --watch"
 	},
 	"repository": {
 		"type": "git",
