@@ -16,6 +16,11 @@ module.exports = {
 		'import/prefer-default-export': 'off',
 		'no-plusplus': 'off',
 		'no-restricted-syntax': 'off',
+		'no-underscore-dangle': 'off',
+		'@typescript-eslint/no-unused-vars': [
+			'warn',
+			{ argsIgnorePattern: '^_', varsIgnorePattern: '^_' },
+		],
 		'prefer-arrow-callback': 'off',
 	},
 	settings: {
