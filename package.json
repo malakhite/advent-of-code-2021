@@ -28,6 +28,7 @@
 	"version": "1.0.0",
 	"main": "dist/index.js",
 	"scripts": {
+		"build": "tsc",
 		"start": "ts-node src/index.ts",
 		"test": "mocha",
 		"test:watch": "mocha --watch"
