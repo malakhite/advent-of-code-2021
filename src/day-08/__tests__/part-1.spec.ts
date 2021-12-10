@@ -154,7 +154,7 @@ const testInput = [
 	],
 ];
 
-describe('Day 8 - Part 1', function () {
+describe.skip('Day 8 - Part 1', function () {
 	it('returns expected answer', function () {
 		const result = day8part1(testInput);
 		expect(result).to.equal(26);
