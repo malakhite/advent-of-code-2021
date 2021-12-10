@@ -5,6 +5,7 @@ import { day3 } from './day-03';
 import { day4 } from './day-04';
 import { day5 } from './day-05';
 import { day6 } from './day-06';
+import { day8 } from './day-08';
 import { day9 } from './day-09';
 
 (async function main() {
@@ -14,5 +15,6 @@ import { day9 } from './day-09';
 	await day4();
 	await day5();
 	await day6();
+	await day8();
 	await day9();
 })();
